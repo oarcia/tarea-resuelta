@@ -1,0 +1,30 @@
+.jumbotron{
+    text-align: center;
+    background: none;
+}
+.carousel-item{
+    align-items: baseline;
+}
+
+.carousel-inner > .carousel-item > img{
+    margin:auto;
+    width:50%
+}
+.mainSection{
+    padding: 2em;
+}
+.middleSection{
+    background-color: beige;
+    padding: 2rem;
+}
+.imgCenter{
+    display: block;
+    margin: auto;
+}
+.buttonCenter{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50;
+}

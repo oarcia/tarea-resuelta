@@ -1,0 +1,55 @@
+<!--Tipo de documento a mostrar-->
+<!doctype html>
+<html>
+    <head>
+		<title>Calculadora</title>
+		<script src="js/calculadora.js"></script>
+	 </head>
+    <body>
+        <form id="suma">
+            <input type="text" id="numero_uno"> +
+             <input type="text" id="numero_dos"> =
+             <input type="text" id="resultado" disabled>
+            <br><br>
+            
+        </form>
+        <button onclick="suma()">Suma</button>
+        <br><br>
+        <p id="texto_resultado"></p>
+          <!--resta-->
+           <form id="resta">
+            <input type="text" id="resta_uno"> -
+             <input type="text" id="resta_dos"> =
+             <input type="text" id="resta_resul" disabled>
+            <br><br>
+            
+        </form>
+        <button onclick="resta()">Resta</button>
+        <br><br>
+        <p id="resta_resultado"></p>
+        
+        <!--multiplicacion-->
+            <form id="multiplicacion">
+            <input type="text" id="numero_uno"> *
+             <input type="text" id="numero_dos"> =
+             <input type="text" id="resultado" disabled>
+            <br><br>
+            
+        </form>
+        <button onclick="multiplicacion()">Multiplicacion</button>
+        <br><br>
+        <p id="texto_resultado2"></p>
+        
+             <!--division-->
+            <form id="division">
+            <input type="text" id="numero_uno3"> *
+             <input type="text" id="numero_dos3"> =
+             <input type="text" id="resultado3" disabled>
+            <br><br>
+            
+        </form>
+        <button onclick="divions()">division</button>
+        <br><br>
+        <p id="texto_resultado3"></p>
+	</body>
+</html>

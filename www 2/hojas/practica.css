@@ -1,0 +1,11 @@
+<!--Tipo de documento a mostrar-->
+<!doctype html>
+<html>
+    <head>
+	 </head>
+    <body>
+    <h1 style="color: crimson; border: 3px solid blue"> esto es un titulo con h1</h1>
+    <h2 style="color: orangen; border: 3px dotted darkgoldenrod"> esto es un titulo con h1</h1>
+    <h3 style="color: dargreen">esto es un titulo con h2</h1>
+	</body>
+</html>

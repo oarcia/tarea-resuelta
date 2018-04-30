@@ -1,0 +1,84 @@
+<!--Tipo de documento a mostrar-->
+<!doctype html>
+<html>
+    <head>
+        <!--Definimos el titulo de nuestra página a mostrar-->
+        <title>Superpagina.com</title>
+        <!--Definimos la codificación de nuestro documento HTML-->
+        <meta charset="UTF-8">
+        <!--Descripción de nuestra página-->
+        <meta name="description" content="Una página chida">
+        <!--Autor de la página-->
+        <meta name="author" content="Ricardo">
+        
+        <!--html5shiv Script que nos permite utilizar HTML5
+            en Internet Explorer 9 para atras
+        -->
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+				<Table >
+
+				<tr>
+					<th>video</th>
+					<th>descripcion</th>
+					</tr>
+				<tr>
+        <td><video width="400" controls>
+           <source src="assets/video/31minutos-LaCorchetis-Sonpololos.mp4" 
+            type="video/mp4">
+            Tu navegador no soporta HTML5 :(
+        </video></td></tr>
+				<tr>
+				<td><video width="400" controls>
+            <source src="assets/video/videoplayback.3gp" 
+            type="video/3gpp">
+            Tu navegador no soporta HTML5 :(
+        </video></td></tr>
+        <tr>
+				<td><iframe width="420" height="315"
+            src="https://www.youtube.com/embed/0HoxZKSD-_c?autoplay=0">
+        </iframe></td></tr>
+				<tr>
+				<td><iframe width="420" height="315"
+            src=https://www.youtube.com/embed/YweHmu4Jh7U?autoplay=0">
+        </iframe></td></tr>
+				<tr>
+				<td>
+					<iframe width="420" height="315"
+            src=https://www.youtube.com/embed/FhL6hx5qaIk?autoplay=0">
+        </iframe></td></tr>
+				<tr>
+				<td>
+        <audio controls>
+            <source src="assets/audio/bailan_sin_cesar.mp3" type="audio/mpeg">
+            Tu navegador no soporta HTML5 :(
+        </audio></td></tr>
+
+        <tr>
+				<td>
+				<iframe frameborder="0" width="480" height="270"
+            src="https://www.dailymotion.com/embed/video/x6ea1l8"
+            allowfullscreen allow="autoplay"></iframe></td></tr>
+						    <section>
+            <p id="demo">Click the button to get your position.</p>
+
+            <button onclick="getLocation()">Try It</button>
+            
+            <div id="mapholder"></div>
+        </section>
+        <section>
+            Esto es una seccion
+            <h1>Formulario</h1>
+            <form id="myForm">
+                Nombre: <input type="text" name="fname"><br>
+                Apellido: <input type="text" name="lname"><br>
+                Mensaje: <input type="text" name="message"><br>
+								tu Correo: <input type="email" name="email"><br>
+            </form> 
+            <button onclick="emailMessage()">Enviar mensaje</button>
+        </section>   
+    </body>
+</html>
